@@ -1,0 +1,28 @@
+OBJECT Codeunit 50000 Test
+{
+  OBJECT-PROPERTIES
+  {
+    Date=02/20/18;
+    Time=11:57:04 PM;
+    Modified=Yes;
+    Version List=ST;
+  }
+  PROPERTIES
+  {
+    OnRun=BEGIN
+            //Test codeunit
+            MESSAGE('Hello world!');
+          END;
+
+  }
+  CODE
+  {
+
+    BEGIN
+    {
+      ST
+    }
+    END.
+  }
+}
+
