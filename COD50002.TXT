@@ -1,0 +1,27 @@
+OBJECT Codeunit 50002 Test3
+{
+  OBJECT-PROPERTIES
+  {
+    Date=02/22/18;
+    Time=[ 8:30:19 AM];
+    Modified=Yes;
+    Version List=ST;
+  }
+  PROPERTIES
+  {
+    OnRun=BEGIN
+            MESSAGE('Test3 CU');
+          END;
+
+  }
+  CODE
+  {
+
+    BEGIN
+    {
+      ST
+    }
+    END.
+  }
+}
+
